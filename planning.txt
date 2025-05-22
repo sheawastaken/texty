@@ -1,0 +1,7 @@
+planning / ideas
+1 create blank ui (native for now)
+2 write text, allow anything beyond ascii (if possible)
+2.1 implement line breaks by pressing enter
+3 able to save (any filetype will do for now)
+3.1 able to load, continue editing
+
