@@ -1,6 +1,7 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
+using System.Windows.Documents;
 
 namespace texty
 {
@@ -10,5 +11,4 @@ namespace texty
     public partial class App : Application
     {
     }
-
 }

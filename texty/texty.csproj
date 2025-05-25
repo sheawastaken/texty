@@ -8,4 +8,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="img\LoadIco.png" />
+    <None Remove="img\SaveIco.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\LoadIco.png" />
+    <Resource Include="img\SaveIco.png" />
+  </ItemGroup>
+
 </Project>

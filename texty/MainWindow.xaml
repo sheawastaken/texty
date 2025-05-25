@@ -5,8 +5,29 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:texty"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="texty - indev (01)" Height="480" Width="640">
+        <DockPanel>
+        <ToolBar DockPanel.Dock="Top">
+            
+            <Button Click="New_Click" ToolTip="New">
+                <TextBlock 
+                    FontSize="20" 
+                    TextAlignment="Center" 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    Text="[+]"/>
+            </Button>
+            
+            <Button Click="Save_Click" ToolTip="Save">
+                <Image Width="32" Source="/img/SaveIco.png"></Image>
+            </Button>
 
-    </Grid>
+            <Button Click="Load_Click" ToolTip="Load">
+                <Image Width="32" Source="/img/LoadIco.png"></Image>
+            </Button>
+        </ToolBar>
+    <Grid>
+        <TextBox Name="TextContent" AcceptsReturn="True" Text="Get started!" TextWrapping="Wrap" Margin="5" FontFamily="Consolas"/>
+    </Grid> 
+        </DockPanel>
 </Window>
